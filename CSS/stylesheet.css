@@ -1,0 +1,80 @@
+/* Set the font family for the entire webpage */
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #de8a2b;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Style the image in the aside */
+  aside img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  /* Style the navigation links */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333333;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  nav a:hover {
+    background-color: #343232;
+    color: #ffffff;
+  }
+  
+  /* Style the article */
+  article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  article h2 {
+    color: #333333;
+  }
+  
+  article h3 {
+    color: #666666;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #de8a2b;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Add reusable CSS classes */
+  .intro {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  .headshot {
+    border: 5px solid #ffffff;
+  }
+  
+  .job-responsibility {
+    font-style: italic;
+  }
+  
